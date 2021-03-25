@@ -1,6 +1,9 @@
-from django.contrib import admin
+
+
 from django.urls import path
-from products_shop4u import views
+
+from . import views
+
 urlpatterns = [
-    
+    path('', views.index, name='index'),
 ]
