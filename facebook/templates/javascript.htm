@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="{% static '/images/bulbon.jpg' %}" alt="My Image" id="img1">
+    <button onclick="BulbOn()">OFF</button>
+    <button onclick="BulbOff()">ON</button>
+
+    <script>
+        function BulbOn() {
+            document.getElementById('img1').src = '/static/images/bulboff.jpg'
+        }
+
+        function BulbOff() {
+            document.getElementById('img1').src = '/static/images/bulbon.jpg'
+        }
+    </script>
+
+</body>
+
+</html>
