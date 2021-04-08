@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <img src="{% static '/images/bulbon.jpg' %}" alt="My Image" id="img1">
+    <!-- <img src="{% static '/images/bulbon.jpg' %}" alt="My Image" id="img1">
     <button onclick="BulbOn()">OFF</button>
     <button onclick="BulbOff()">ON</button>
 
@@ -23,7 +23,30 @@
             document.getElementById('img1').src = '/static/images/bulbon.jpg'
         }
     </script>
+ -->
+    <button onclick="arr()">click</button>
+    <button onclick="printbackwards()">click</button>
 
+    <script>
+        array = ['red', 'blue', 'white', 'yellow']
+
+        function arr() {
+
+            console.log(array)
+
+            for (i in array) {
+                document.write(array[i] + "<br>")
+            }
+        }
+
+        function printbackwards() {
+            limit = 10;
+            while (limit >= 0) {
+                document.write(limit + "<br>")
+                limit = limit - 1;
+            }
+        }
+    </script>
 </body>
 
 </html>
