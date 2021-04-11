@@ -1,0 +1,35 @@
+ button {
+     height: 57px;
+     width: 65px;
+     background-color: #d2d9d9;
+ }
+ 
+ .btnzero {
+     width: 100%;
+     background-color: #d2d9d9;
+ }
+ 
+ .btnsign {
+     background-color: #f59842;
+ }
+ 
+ input {
+     height: 96px;
+     width: 260px;
+     background-color: black;
+     color: white;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     height: 400px;
+     width: 250px;
+ }
+ 
+ body {
+     margin-top: 100px;
+ }
+ 
+ h1 {
+     color: #f59842;
+ }

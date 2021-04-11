@@ -15,3 +15,6 @@ def fun2(request):
 
 def fun3(request):
         return render(request,'javascript.htm')
+
+def fun4(request):
+        return render(request,'calculater.htm')

@@ -1,5 +1,5 @@
 """
-WSGI config for shop4u project.
+WSGI config for Django-Projects project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
